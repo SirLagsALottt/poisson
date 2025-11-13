@@ -54,7 +54,7 @@ else:
         # --- Save ONLY the camera matrix and distortion coefficients ---
         # The pixels_per_mm ratio will be calculated in the main analysis script
         # based on the specific video being analyzed for higher accuracy.
-        np.savez('camera_calibration_data.npz', mtx=mtx, dist=dist)
+        np.savez('../data/calibration_data/camera_calibration_data.npz', mtx=mtx, dist=dist)
         print("Calibration data (mtx, dist) saved to camera_calibration_data.npz")
     else:
         print("\nCalibration failed.")
