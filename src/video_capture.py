@@ -6,7 +6,7 @@ import RPi.GPIO as GPIO
 import time
 
 # --- SETTINGS ---
-VIDEO_DIR = "/media/schlorchi00/78F0F9A6F0F96AB0/DIC_videos"
+VIDEO_DIR = "../data/DIC_videos"
 FPS = 30
 FRAME_WIDTH = 1280
 FRAME_HEIGHT = 720

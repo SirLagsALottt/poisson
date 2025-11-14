@@ -22,5 +22,5 @@ RESULTS_D = 'results'
 CAL_FILE = 'calibration_data/camera_calibration_data.npz'
 
 
-SCALING_VIDEO_FILE = 'scale.mp4'
-TRACKING_VIDEO_FILE = 'test.mp4'
+SCALING_VIDEO_FILE = '../data/DIC_videos/scale.mp4' 
+TRACKING_VIDEO_FILE = '../data/DIC_videos/track.mp4'
